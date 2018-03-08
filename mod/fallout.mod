@@ -1,0 +1,9 @@
+name="Fallout"
+path="mod/fallout"
+tags={
+	"Species"
+	"Graphics"
+	"Fallout"
+}
+picture="stellaris_fallout.png"
+supported_version="2.0.*"

@@ -1,0 +1,215 @@
+### Enclave
+# %C% - Cardinal:  will produce cardinal numbers: 1, 2, 3, 4...
+# %O% - Ordinal:  will produce ordinal numbers: 1st, 2nd, 3rd, 4th...
+# %R% - Roman:  will produce Roman numbers: I, II, III, IV...
+
+enclave_names = {
+
+	# Ships
+	ship_names = {
+
+		generic = {
+			"Archimedes I" "Archimedes II" "Defiance" "Delta" "Hermes" "Bradley-Hercules"
+			"Quetzel" "R77-293A Needlenose"
+		}
+
+		corvette = {
+		}
+
+		destroyer = {
+		}
+
+		cruiser = {
+		}
+
+		battleship = {
+		}
+
+		science = {
+		}
+
+		colonizer = {
+		}
+
+		constructor = {
+		}
+
+		mining_station = {
+		
+		}
+		
+		research_station = {
+
+		}
+			
+		observation_station = {
+
+		}
+
+		# Are starbase naming conventions used in Apocalypse?
+		starbase_outpost = {
+        	sequential_name = "B.O.M.B - %C%"
+        }
+        
+		starbase_starport = {
+        	sequential_name = "B.O.M.B - %C%"
+        }
+        
+		starbase_starhold = {
+        	sequential_name = "B.O.M.B - %C%"
+    	}
+        
+		starbase_starfortress = {
+            sequential_name = "B.O.M.B - %C%"
+        }
+        
+		starbase_citadel = {
+        	sequential_name = "B.O.M.B - %C%"
+        }
+		
+		transport = {
+			"SpaceVan"
+			"Wicked Shipping"
+		}
+
+		military_station_small = {
+
+		}
+		
+		military_station_medium = {
+
+		}
+		
+		military_station_large = {
+		
+		}
+	}
+
+	# Fleets
+	fleet_names = {
+		random_names = {
+
+		}
+		sequential_name = "%O% Enclave Flotilla"
+	}
+
+	# Armies
+	army_names = {
+
+		defense_army = {
+			sequential_name = "%O% NORAD"
+		}
+
+		assault_army = {
+			sequential_name = "%O% Heavily Mechanized Unit"
+		}
+
+		slave_army = {
+			sequential_name = "%O% Jane's Army"
+		}
+
+		clone_army = {
+			sequential_name = "%O% V13 Clones"
+		}
+
+		robotic_army = {
+			sequential_name = "%O% Gun Robot Flotilla"
+		}
+
+		android_army = {
+			sequential_name = "%O% Replicated Men"
+		}
+
+		psionic_army = {
+			sequential_name = "%O% Psykers"
+		}
+
+		xenomorph_army = {
+			sequential_name = "%O% Wanamingos"
+		}
+
+		gene_warrior_army = {
+			sequential_name = "%O% Experiments"
+		}
+	}
+	
+	# Planets
+
+	planet_names = {
+
+		generic = {
+			names = {
+			
+			}
+		}
+
+		pc_desert = {
+			names = {
+
+			}
+		}
+
+		pc_tropical = {
+			names = {
+			}
+		}
+
+		pc_arid = {
+			names = {
+			}
+		}
+
+		pc_continental = {
+			names = {
+			}
+		}
+
+		pc_ocean = {
+			names = {
+			}
+		}
+
+		pc_tundra = {
+			names = {
+			}
+		}
+
+		pc_arctic = {
+			names = {
+			}
+		}
+
+	}
+
+	# Characters
+
+	character_names = {
+
+		default = {
+			full_names = {
+				"Arcade Gannon" "Colonel Sanders" "Navarro base commander" "Captain Pickard"
+				"Captain Judah Kreger" "Sergeant Arch Dornan" "Sergeant Bracks" "Sergeant Granite"
+				"Cannibal Johnson" "Gannon Senior" "Orion Moreno" "J. Smith" "Snookie"
+				"William Brandice" "Colonel Augustus Autumn" "Lieutenant Williams"
+				"Lieutenant Brian Richter" "Private First Class Matthew Scott"
+				"Enclave Sigma leader" "J.J. Black" "NCO J. Tuck"
+			}
+
+			first_names = {
+			
+			}
+
+			second_names = {
+			
+			}
+
+			regnal_first_names = {
+			
+			}
+
+			regnal_second_names = {
+			
+			}
+		}
+	}
+}

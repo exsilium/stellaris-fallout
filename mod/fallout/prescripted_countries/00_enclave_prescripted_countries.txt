@@ -1,0 +1,61 @@
+# The Enclave Empire
+
+enclave1 = {
+        key="enclave1"
+        ship_prefix="USS"
+        species = {
+                class="Enclave"
+                portrait="enclave_portrait_1"
+                name="Enclave"
+                plural="Enclaves"
+                adjective="Enclavan"
+                name_list="enclave_names"
+        }
+        name="The Enclave"
+        adjective="Enclavan"
+        authority="auth_dictatorial"
+        government="gov_totalitarian_regime"
+        planet_name="Earth"
+        planet_class="pc_desert"
+        system_name="Sun"
+        initializer="sol_system_initializer"
+        graphical_culture="enclave_gc_01"
+        city_graphical_culture="enclave_gc_01"
+        empire_flag = {
+                icon = {
+                        category="fallout_flags"
+                        file="enclave.dds"
+                }
+                background = {
+                        category="backgrounds"
+                        file="00_solid.dds"
+                }
+                colors = {
+                        "black"
+                        "black"
+                        "null"
+                        "null"
+                }
+        }
+        # Sarting flags, not to be confused with the empire_flag
+        flags = { the_enclave custom_start_screen }
+        ruler = {
+                gender=male
+                name="Richardson Senior"
+                portrait="enclave_portrait_1"
+                texture=0
+                hair=0
+                clothes=0
+                ruler_title="President"
+        }
+        spawn_as_fallen=no
+        ignore_portrait_duplication=no
+        room="default_room"
+        spawn_enabled=no
+        ethic="ethic_militarist"
+        ethic="ethic_fanatic_materialist"
+        civics={
+                "civic_mechanists"
+                "civic_police_state"
+        }
+}

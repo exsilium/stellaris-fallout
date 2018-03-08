@@ -1,0 +1,9 @@
+# The Enclave
+part = {
+    location = 0
+    localization = "START_SCREEN_ENC"
+  
+    trigger = {
+        has_country_flag = the_enclave
+    }    
+}

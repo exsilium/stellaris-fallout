@@ -1,0 +1,3 @@
+portraits = {
+	enclave_portrait_1 = { texturefile = "gfx/models/portraits/enclave.dds"	}
+}

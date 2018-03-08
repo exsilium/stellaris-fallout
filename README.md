@@ -2,7 +2,14 @@
 
 War... War never changes.
 
-# WIP
+# Installation
+
+The easiest way is to subscribe via [Steam Workshop](http://steamcommunity.com/sharedfiles/filedetails/?id=1323635663).
+Alternatively, you can copy the `mod/` folder contents to the Stellaris `mod` directory depending on your platform of choice:
+
+- Mac: `~/Documents/Paradox Interactive/Stellaris/mod/`
+- Linux: `~/.local/share/Paradox Interactive/Stellaris/mod/`
+- Windows: `~\Documents\Paradox Interactive\Stellaris\mod\`
 
 # Contributing
 

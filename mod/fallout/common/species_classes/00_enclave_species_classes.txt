@@ -9,5 +9,5 @@ Enclave = {
 	move_pop_sound_effect = "moving_pop_confirmation"
 
 	leader_age_min = 18
-	leader_age_max = 10000
+	leader_age_max = 30
 }

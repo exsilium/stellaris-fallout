@@ -1,6 +1,7 @@
 name="Fallout"
 path="mod/fallout"
 tags={
+	"Leaders"
 	"Species"
 	"Graphics"
 	"Fallout"

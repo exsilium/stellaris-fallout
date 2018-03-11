@@ -41,12 +41,14 @@ enclave1 = {
         flags = { the_enclave custom_start_screen }
         ruler = {
                 gender=male
-                name="Richardson Senior"
+                name="Dick Richardson"
                 portrait="enclave_portrait_1"
                 texture=0
                 hair=0
                 clothes=0
                 ruler_title="President"
+                trait="leader_trait_nuclear_age"
+                trait="trait_ruler_frontier_spirit"
         }
         spawn_as_fallen=no
         ignore_portrait_duplication=no

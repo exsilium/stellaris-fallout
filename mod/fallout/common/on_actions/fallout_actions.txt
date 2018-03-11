@@ -1,0 +1,11 @@
+on_game_start = {
+  events = {
+    fallout.1
+  }
+}
+
+on_ruler_set = {
+  events = {
+    fallout.2
+  }
+}

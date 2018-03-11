@@ -1,0 +1,62 @@
+namespace = fallout
+
+# This event is triggered at the start of the game
+event = {
+  id = fallout.1
+  hide_window = yes
+  is_triggered_only = yes
+  immediate = {
+    every_country = {
+      limit = {
+        AND = {
+          is_ai = no                      # Execute on player only
+          has_country_flag = the_enclave  # The Enclave
+        }      
+      }
+      every_owned_leader = {                     # The scope is now for every leader
+        if = { limit = { leader_class = ruler }  # Scope to ruler
+          set_age = 65                           # Dick Richardson was born in 2185
+        }
+      }
+      every_owned_ship = {
+        limit = {
+          is_ship_size = starbase_starport
+        }
+        set_name = "Ballistic Orbital Missile Base 1"
+      }
+      # If the host has Apocalypse DLC, we change to Post-Apocalyptic civic
+      if = { limit = { host_has_dlc = "Apocalypse" }
+        change_government = {
+          civics = {
+            civic = civic_post_apocalyptic
+            civic = civic_police_state
+          }
+        }
+      }
+    }
+  }
+}
+
+# This event is triggered on new ruler
+event = {
+  id = fallout.2
+  hide_window = yes
+  is_triggered_only = yes
+  immediate = {
+    every_country = {
+      limit = {
+        AND = {
+          is_ai = no                      # Execute on player only
+          has_country_flag = the_enclave  # The Enclave
+        }
+      }
+      every_owned_leader = {                                                 # The scope is now for every leader
+        if = { limit = { leader_class = ruler }                              # Scope to ruler
+          if = { limit = { NOT = { has_trait = leader_trait_nuclear_age } }
+            add_trait = leader_trait_nuclear_age
+          }
+        }
+      }
+    }
+  }
+}

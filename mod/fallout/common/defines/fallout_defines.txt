@@ -1,0 +1,4 @@
+NGameplay = {
+  # The Enclave were space ready 8 years after the showdown at the oil platform
+  START_YEAR = 2250
+}
